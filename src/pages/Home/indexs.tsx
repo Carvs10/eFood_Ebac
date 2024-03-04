@@ -1,12 +1,13 @@
 import Footer from "../../components/Footer";
 import Hero from "../../components/Hero";
+import Restaurants from "../../components/Restaurants";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <div>
-        <h2>peace</h2>
+      <div className="container">
+        <Restaurants />
       </div>
       <Footer />
     </>

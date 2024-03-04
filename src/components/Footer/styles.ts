@@ -8,10 +8,9 @@ export const Container = styled.div`
   width: 100%;
   align-items: center;
   text-align: center;
-  height: 338px;
 
+  padding: 40px 0;
   img {
-    margin-top: 40px;
     margin-bottom: 32.5px;
   }
 `;
