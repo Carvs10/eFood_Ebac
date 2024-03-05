@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { createGlobalStyle, styled } from "styled-components";
 
 export const colors = {
@@ -27,7 +28,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
 `;
-export const Button = styled.button`
+export const Button = styled(Link)`
   background-color: ${colors.textColor};
   color: ${colors.secondaryBackground};
   padding: 4px 6px;
@@ -35,6 +36,7 @@ export const Button = styled.button`
   font-weight: 700;
   font-size: 14px;
   cursor: pointer;
+  text-decoration: none;
 `;
 
 export const Tag = styled.button`

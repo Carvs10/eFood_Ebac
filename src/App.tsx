@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import { GlobalStyles } from "./styles";
 import RoutesPages from "./routes";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <BrowserRouter>
         <GlobalStyles />
         <RoutesPages />
+        <Footer />
       </BrowserRouter>
     </>
   );

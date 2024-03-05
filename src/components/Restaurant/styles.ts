@@ -10,6 +10,8 @@ export const Card = styled.div`
   border: 1px solid ${colors.textColor};
   border-top: 0;
 
+  height: 100%;
+
   img {
     object-fit: cover;
     width: 100%;
@@ -21,6 +23,8 @@ export const Info = styled.div`
 
   .description {
     margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 22px;
   }
 `;
 
