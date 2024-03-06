@@ -11,6 +11,7 @@ export const HeaderBar = styled.header`
   background-image: url(${bannerBG});
   align-items: center;
   height: 100%;
+  color: ${colors.textColor};
 `;
 
 export const RedirectHome = styled(Link)`
